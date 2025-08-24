@@ -1,27 +1,22 @@
 html,
-body{
-  display:grid;
-  height:100%;
+body {
+  display: grid;
+  height: 100%;
   place-items: center;
-  background:red;
-  font-family:monospace;
-
+  background: red;
+  font-family: monospace;
 }
-menu{
-  list-style:none;
-  
 
-  display:flex;
-  justify-content: space around;
-  padding:10px;
+menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* ✅ fixed */
+  padding: 10px;
   gap: 10px;
   border-radius: 7px;
 }
-li{
-  padding:10px 20px;
-  cursor:pointer;
-  
-  
-  
-  
+
+li {
+  padding: 10px 20px;
+  cursor: pointer;
 }
